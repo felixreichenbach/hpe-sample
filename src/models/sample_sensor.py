@@ -70,7 +70,7 @@ class SampleSensor(Sensor, EasyResource):
         **kwargs
     ) -> Mapping[str, SensorReading]:
         self.logger.error("`get_readings` is not implemented")
-        raise NotImplementedError()
+        return {"message": "Hello, world!"}
 
     async def do_command(
         self,
