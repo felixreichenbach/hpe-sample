@@ -1,0 +1,30 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "hpe-automotive:hpe-sample",
+  "visibility": "private",
+  "url": "",
+  "description": "Modular sensor component: sample-sensor",
+  "models": [
+    {
+      "api": "rdk:component:sensor",
+      "model": "hpe-automotive:hpe-sample:sample-sensor",
+      "short_description": "Provide a short (100 characters or less) description of this model here",
+      "markdown_link": "README.md#model-hpe-automotivehpe-samplesample-sensor"
+    }
+  ],
+  "applications": null,
+  "markdown_link": "README.md",
+  "entrypoint": "./run.sh",
+  "first_run": "",
+  "build": {
+    "build": "./build.sh",
+    "setup": "./setup.sh",
+    "path": "dist/archive.tar.gz",
+    "arch": [
+      "linux/amd64",
+      "linux/arm64",
+      "darwin/arm64",
+      "windows/amd64"
+    ]
+  }
+}
