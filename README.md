@@ -48,3 +48,19 @@ If your model implements DoCommand, provide an example payload of each command t
   }
 }
 ```
+
+
+## Viam Module Development Setup on Windows
+
+You can follow this [tutorial](https://code.visualstudio.com/docs/remote/wsl) for the steps 1-3.
+
+1. Install WSL "Windows Subsystem for Linux"
+2. Install Visual Studio Code (my recommendation)
+3. Install Visual Studio Code WSL Extension
+4. [Clone](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_clone-a-repository-locally) this repo from within Visual Studio Code
+5. [Open a terminal](https://code.visualstudio.com/docs/terminal/basics) within Visual Studio Code and run the setup script `./setup.sh`
+
+## Install Viam Server in WSL
+
+1. [Open a terminal](https://code.visualstudio.com/docs/terminal/basics) within Visual Studio Code connected to WSL
+2. Create a machine in app.viam.com and use the linux commands to install Viam Server into your WSL instance
